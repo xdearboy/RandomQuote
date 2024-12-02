@@ -46,6 +46,7 @@ RandomQuote — это проект, который генерирует слу�
 
 1. Перейдите на сайт [music-yandex-bot.ru](https://music-yandex-bot.ru/).
 2. Следуйте инструкциям на сайте для получения вашего Yandex Music API токена.
+3. Либо установите расширение [yandex-music-token](https://chromewebstore.google.com/detail/yandex-music-token/lcbjeookjibfhjjopieifgjnhlegmkib)
 
 ### Получение Genius API токена
 
