@@ -1,6 +1,6 @@
 # RandomQuote
 
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 [![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000?style=for-the-badge)](https://github.com/charliermarsh/ruff)
 
@@ -39,6 +39,23 @@ RandomQuote — это проект, который генерирует слу�
    TELEGRAM_PHONE_NUMBER=your_phone_number
    ENABLE_LYRICS_TO_TG=true  # Или false, если не хотите включать аддон для Telegram.
    ```
+
+## Получение API токенов
+
+### Получение Yandex Music API токена
+
+1. Перейдите на сайт [music-yandex-bot.ru](https://music-yandex-bot.ru/).
+2. Следуйте инструкциям на сайте для получения вашего Yandex Music API токена.
+
+### Получение Genius API токена
+
+1. Перейдите на сайт [Genius](https://genius.com/) и войдите в свой аккаунт (или создайте его, если у вас его нет).
+2. Перейдите в раздел [API Clients](https://genius.com/api-clients) и создайте новое приложение, чтобы получить ваш Genius API токен.
+
+### Получение Telegram API ID и API HASH
+
+1. Перейдите на сайт [lavhost.su/telegram-api](https://lavhost.su/telegram-api).
+2. Следуйте инструкциям на сайте для получения вашего Telegram API ID и API HASH.
 
 ## Использование
 
