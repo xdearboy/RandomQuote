@@ -20,7 +20,7 @@ class RandomQuote:
         lyrics = self.genius_client.get_random_lyrics(random_track)
 
         if lyrics:
-            output = f"[Название: {random_track.title}] [Исполнитель: {random_track.artists[0].name}]\n{lyrics}\n\nСоздано с помощью RandomQuote"
+            output = f"[Название: {random_track.title}] [Исполнитель: {random_track.artists[0].name}]\n{lyrics}\n\n[Создано с помощью RandomQuote]"
             self.save_to_file(output)
             logging.info(f"Текст сохранен в {os.path.abspath(self.output_file)}")
         else:
