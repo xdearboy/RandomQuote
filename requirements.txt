@@ -1,5 +1,3 @@
 python-dotenv
 lyricsgenius
 yandex-music
-telebot
-importlib

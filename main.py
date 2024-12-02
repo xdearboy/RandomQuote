@@ -1,11 +1,13 @@
+import asyncio
+import importlib.util
 import logging
 import os
-import asyncio
+
 from dotenv import load_dotenv
-from clients.yandex_music_client import YandexMusicClient
+
 from clients.lyrics_genius_client import LyricsGeniusClient
+from clients.yandex_music_client import YandexMusicClient
 from services.random_quote import RandomQuote
-import importlib.util
 
 load_dotenv()
 

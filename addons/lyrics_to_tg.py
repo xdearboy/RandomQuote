@@ -1,6 +1,7 @@
 import logging
-from telethon import TelegramClient, functions
 import re
+
+from telethon import TelegramClient, functions
 
 
 async def update_profile_description(lyrics, api_id, api_hash, phone_number):
