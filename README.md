@@ -12,7 +12,7 @@ RandomQuote — это проект, который генерирует слу�
 1. **Клонируйте репозиторий:**
 
       ```bash
-   git clone https://github.com/yourusername/RandomQuote.git
+   git clone https://github.com/xdearboy/RandomQuote.git
    cd RandomQuote
    ```
 
