@@ -27,8 +27,8 @@ async def update_profile_description(lyrics):
     await client.sign_in(phone_number)
 
     lyrics = re.sub(r"\[.*?\]", "", lyrics)
-    await client(functions.account.UpdateProfileRequest(about=lyrics[:190]))
+    await client(functions.account.UpdateProfileRequest(about=lyrics[:70]))
 
-    logging.info(f"Профиль обновлен с текстом: {lyrics[:190]}")
+    logging.info(f"Профиль обновлен с текстом: {lyrics[:70]}")
 
     await client.disconnect()
