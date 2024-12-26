@@ -38,6 +38,7 @@ RandomQuote — это проект, который генерирует слу�
    TELEGRAM_API_HASH=your_telegram_api_hash
    TELEGRAM_PHONE_NUMBER=your_phone_number
    ENABLE_LYRICS_TO_TG=true  # Или false, если не хотите включать аддон для Telegram.
+   ENABLE_LYRICS_TO_DS=true  # Или false, если не хотите включать аддон для Discord.
    ```
 
 ## Получение API токенов
@@ -53,10 +54,17 @@ RandomQuote — это проект, который генерирует слу�
 1. Перейдите на сайт [Genius](https://genius.com/) и войдите в свой аккаунт (или создайте его, если у вас его нет).
 2. Перейдите в раздел [API Clients](https://genius.com/api-clients) и создайте новое приложение, чтобы получить ваш Genius API токен.
 
-### Получение Telegram API ID и API HASH
+### Получение Telegram API ID и API HASH, а так-же Discord TOKEN.
 
-1. Перейдите на сайт [lavhost.su/telegram-api](https://lavhost.su/telegram-api).
-2. Следуйте инструкциям на сайте для получения вашего Telegram API ID и API HASH.
+1. Перейдите на сайт [lavhost.su/telegram-api для телеграмм](https://lavhost.su/telegram-api) или [для получения Discord Token](https://plumplum.medium.com/how-to-get-discord-token-2023-5cd63097d673).
+2. Следуйте инструкциям на сайте для получения вашего Telegram API ID, API HASH и DISCORD TOKEN.
+3. **Создайте файл `addons/.env` в корне проекта и добавьте следующие переменные:**
+   ```env
+      TELEGRAM_API_ID=
+      TELEGRAM_API_HASH=
+      TELEGRAM_PHONE_NUMBER=
+      DISCORD_TOKEN=
+   ```
 
 ## Использование
 
